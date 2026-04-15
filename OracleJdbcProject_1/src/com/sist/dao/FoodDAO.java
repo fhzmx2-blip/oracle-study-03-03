@@ -28,7 +28,7 @@ public class FoodDAO {
 	// 오라클 연결
 	public void getConnection() {
 		try {
-			conn = DriverManager.getConnection(URL, "hr", "happy");
+			conn = DriverManager.getConnection(URL, "hr", *************);
 			// conn hr/happy => 오라클로 명령 전송
 		} catch (Exception ex) {
 		}
