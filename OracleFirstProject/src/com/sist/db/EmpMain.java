@@ -15,7 +15,7 @@ public class EmpMain {
 		Class.forName("oracle.jdbc.driver.OracleDriver");
 		String url = "jdbc:oracle:thin:@localhost:1521:XE";
 		// 2. 연결
-		Connection conn = DriverManager.getConnection(url, "hr", "happy");
+		Connection conn = DriverManager.getConnection(url, "hr", ******);
 		// 3. 명령문
 		String sql = "SELECT empno, ename, job FROM emp WHERE job LIKE '%" + name + "%'";
 		PreparedStatement ps = conn.prepareStatement(sql);
