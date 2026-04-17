@@ -22,7 +22,7 @@ public class BoardDAO {
 	
 	public void getConnection() {
 		try {
-			conn=DriverManager.getConnection(URL,"hr", ***********);
+			conn=DriverManager.getConnection(URL,*******, ***********);
 		} catch (Exception ex) {	}
 	}
 	
